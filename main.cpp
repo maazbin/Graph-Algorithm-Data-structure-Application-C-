@@ -1,7 +1,8 @@
 /*Social media in a nutshell
-			By
-		Musab Bin Gulfam   cs171105
-		Maaz Vin Mustaqeem cs171076 */
+	By
+Maaz Bin Mustaqeem	
+
+*/
 #include "header.hpp"
 
 
