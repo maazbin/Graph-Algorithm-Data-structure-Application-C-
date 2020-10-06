@@ -1,6 +1,6 @@
 #include "mainheader.h"
 #include <stdio.h>
-/*NOTE FOR MUSAB ..........................Calling std::cin.ignore() before calling getline() because it was not working without it
+/*NOTE ..........................Calling std::cin.ignore() before calling getline() because it was not working without it
 
 */
 
