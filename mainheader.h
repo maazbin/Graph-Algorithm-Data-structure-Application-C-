@@ -38,20 +38,20 @@ class Network {
 			void connect_Users(); // connecting Users		
 			void people_You_May_Know();
 			
-			void sort_friend_list(int index);//Sorting friend_list   //***************musab********
-			bool check_info(std::string userName,std::string password); //for login     //***************musab********
+			void sort_friend_list(int index);//Sorting friend_list   
+			bool check_info(std::string userName,std::string password); // For login checks info if user name exists
 			void delete_account();
-			void Login();    //***************musab********
-			void SigneUp();  //***************musab********
-			bool check_info(std::string userName); // for signe up         //***************musab********
-			bool control_for_user();  //***************musab********
-			void see_friends();  //***************musab********
-			void search_own_friends(std::string search_string);
-			void start_chat();  //***************musab********
-			void select_friend(); //returns index of chat_List   //***************musab********
-			void show_chat(); //showing chat done b/w users    //***************musab********
-			void write_message();//***************musab********
+			void Login();    
+			void SigneUp(); 
+			bool check_info(std::string userName); // (Over loaded function) for signe up checks info if user name exists
+			bool control_for_user();  // Gives program control to user
+			void see_friends(); //See all friends you have
+			void search_own_friends(std::string search_string); // searching for a specific name
+			void start_chat();  
+			void select_friend(); //returns index of chat_List   
+			void show_chat(); //showing chat done b/w users    
+			void write_message();
 			void send_message(std::string message);
-			void Logout(); 				//***************musab********
+			void Logout(); 				
 			
 };//Network class ends
